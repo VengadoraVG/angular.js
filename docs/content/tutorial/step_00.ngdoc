@@ -176,6 +176,11 @@ For the purposes of this tutorial, we modified the angular-seed with the followi
   ```html
   <p>1 + 2 = {{1 + 2}}</p>
   ```
+  
+* Try narrowing the ng-app scope by removing ng-app from the html tag and then...
+  ```html
+  <p ng-app>1 + 2 = {{1 + 2}}</p>
+  <p>1 + 2 = {{1 + 2}}</p>
 
 
 # Summary
